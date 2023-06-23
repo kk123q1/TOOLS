@@ -1,0 +1,5 @@
+#define MakingPreCompiledHeader 1
+#include "PICarbon.h"
+#include "PhotoshopSDK.h"
+#pragma precompile_target "PhotoshopSDKRelease.ch"
+#undef MakingPreCompiledHeader

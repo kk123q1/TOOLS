@@ -1,0 +1,5 @@
+#define MakingPreCompiledHeader 1
+#include "PIDebugCarbon.h"
+#include "PhotoshopSDK.h"
+#pragma precompile_target "PhotoshopSDKDebug.ch"
+#undef MakingPreCompiledHeader
